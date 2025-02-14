@@ -12,20 +12,20 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Pongpol Woraprukpisut's blog",
   description:
-    "Guillermo Rauch is the CEO and founder of Vercel, a software engineer, and the creator of Next.js, Mongoose, Socket.io and other open source libraries.",
+    "Pongpol Woraprukpisut is the CTO and co-founder of i-App Creation, Head of Development, QA & Product Delivery.",
   openGraph: {
-    title: "Guillermo Rauchg's blog",
+    title: "Pongpol Woraprukpisut's blog",
     description:
-      "Guillermo Rauch is the CEO and founder of Vercel, a software engineer, and the creator of Next.js, Mongoose, Socket.io and other open source libraries.",
-    url: "https://rauchg.com",
-    siteName: "Guillermo Rauchg's blog",
+      "Pongpol Woraprukpisut is the CTO and co-founder of i-App Creation, Head of Development, QA & Product Delivery.",
+    url: "https://www.pongpol.me",
+    siteName: "Pongpol Woraprukpisut's blog",
   },
-  twitter: {
-    card: "summary_large_image",
-    site: "@rauchg",
-    creator: "@rauchg",
-  },
-  metadataBase: new URL("https://rauchg.com"),
+  // twitter: {
+  //   card: "summary_large_image",
+  //   site: "@rauchg",
+  //   creator: "@rauchg",
+  // },
+  metadataBase: new URL("https://www.pongpol.me"),
 };
 
 export const viewport = {
