@@ -35,7 +35,7 @@ export function Header({ posts }: { posts: Post[] }) {
 
       <p className="font-mono flex text-xs text-gray-500 dark:text-gray-500">
         <span className="flex-grow">
-          <span className="hidden md:inline">
+          {/* <span className="hidden md:inline">
             <span>
               <a
                 href="https://twitter.com/rauchg"
@@ -47,7 +47,7 @@ export function Header({ posts }: { posts: Post[] }) {
             </span>
 
             <span className="mx-2">|</span>
-          </span>
+          </span> */}
 
           {/* since we will pre-render the relative time, over time it
            * will diverge with what the user relative time is, so we suppress the warning.
