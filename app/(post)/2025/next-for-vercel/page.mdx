@@ -1,0 +1,43 @@
+```mdx
+# Understanding How Domain Names Work: From Registrar to Browser
+
+In the digital world, domain names are the addresses that enable us to access websites. But how does a domain name work from the moment we register it to when it leads us to a specific webpage? This article will guide you through the journey of a domain name in an easy-to-understand manner.
+
+## What is a Domain Name?
+
+A **domain name** is a human-readable address used to identify a location on the internet. For example, `www.example.com` is a domain name. Just like a house has a street address, websites have domain names that help users find them easily.
+
+## The Domain Name System (DNS)
+
+To understand how domain names work, we need to introduce the **Domain Name System (DNS)**. Think of DNS as the internet's phonebook. When you type a domain name into your browser, DNS translates that name into an IP address, which is the actual address used by computers to communicate with each other.
+
+### Step-by-Step Journey of a Domain Name
+
+1. **Registration**  
+   The journey begins when you choose a domain name and register it through a **domain registrar**. Registrars are organizations that manage the reservation of domain names. Common registrars include GoDaddy, Namecheap, and Google Domains. During registration, you provide your desired domain name and some personal information.
+
+2. **Domain Name Server (DNS) Setup**  
+   After registration, you need to point your domain name to a **DNS server**. This server holds the records that tell the internet where to find your website. You can use the registrar's DNS service or choose a third-party DNS provider.
+
+3. **Propagation**  
+   Once you've set up the DNS records, it takes some time for these changes to propagate across the internet. This means that different DNS servers around the world will update their records to reflect your new domain name's destination.
+
+4. **User Input**  
+   When a user types your domain name into their browser, the browser sends a request to a DNS resolver. This resolver is usually provided by the user's Internet Service Provider (ISP).
+
+5. **Finding the IP Address**  
+   The DNS resolver checks its cache to see if it already knows the IP address associated with your domain name. If it does, it retrieves it. If not, it queries other DNS servers in a hierarchical manner, starting from the root DNS servers, then moving to the top-level domain (TLD) servers (like .com, .org), and finally to your specific domain's DNS server.
+
+6. **Connecting to the Web Server**  
+   Once the resolver obtains the correct IP address, it sends this information back to the user's browser. The browser then uses this IP address to connect to your web server, where your website's files are hosted.
+
+7. **Displaying the Website**  
+   After establishing a connection, the browser requests the website files from the server. Once the server sends the files back, the browser renders the website for the user to see.
+
+## Conclusion
+
+Understanding how domain names work is essential for anyone looking to establish an online presence. From the moment you register a domain name to the moment a user accesses your website, several processes occur seamlessly in the background. By grasping these fundamentals, you can appreciate the intricacies of the internet and how easily it connects us to the information we seek.
+
+For those wanting to dive deeper, consider exploring how DNS records work, the types of DNS records available, and how to optimize your domain for better performance and security.
+
+```
