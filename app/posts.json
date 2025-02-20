@@ -4,6 +4,11 @@
       "id": "1",
       "date": "February 20, 2025",
       "title": "How domain name works."
+    },
+    {
+      "id": "2",
+      "date": "February 20, 2025",
+      "title": "JAMstack in a nutshell."
     }
   ]
 }
