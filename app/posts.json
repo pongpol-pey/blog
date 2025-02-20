@@ -1,5 +1,9 @@
 {
   "posts": [
-    
+    {
+      "id": "1",
+      "date": "February 20, 2025",
+      "title": "How domain name works."
+    }
   ]
 }
